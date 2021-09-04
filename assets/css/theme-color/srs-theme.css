@@ -1,0 +1,87 @@
+
+
+.nkm-hero-overlay,
+.nkm-video-overlay {
+	background-color: #64b3f4;/* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #34495E, #64b3f4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #34495E, #64b3f4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.nkm-primary-btn:hover,
+.nkm-primary-btn:focus,
+.nkm-copy-right a:hover,
+.nkm-copy-right a:focus,
+.nkm-send-msg-btn:hover,
+.nkm-send-msg-btn:focus,
+.nkm-faq-content .panel-title a:hover,
+.nkm-faq-content .panel-title a:focus,
+.nkm-faq-content .panel-title a[aria-expanded="true"],
+.nkm-faq-content .panel-title a>span,
+.nkm-menu ul li a:hover,
+.nkm-menu ul li a:focus,
+.nkm-single-speakers-info p,
+.nkm-single-speakers-social li a:hover,
+.nkm-single-speakers-social li a:focus,
+.nkm-logo,
+.nkm-logo:hover,
+.nkm-logo:focus,
+#nkm-hero .navbar-default .navbar-brand,
+.nkm-navbar .nkm-menu li a:hover,
+.nkm-navbar .nkm-menu li a:focus,
+.nkm-single-event .nkm-event-time, .click-here{
+	color: #64b3f4;
+}
+
+.nkm-speakers-slider .slick-next,
+.nkm-speakers-slider .slick-prev,
+#nkm-venue,
+.nkm-popular-price .nkm-price-tag,
+.nkm-navbar .navbar-toggle,
+.nkm-navbar .navbar-toggle:hover,
+.nkm-navbar .navbar-toggle:focus,
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:focus, 
+.navbar-default .navbar-nav > .active > a:hover,
+.nkm-schedule-menu li a:hover,
+.nkm-schedule-menu li a:focus,
+.nkm-schedule-menu li.active a,
+.nkm-schedule-menu li.active a:hover,
+.nkm-schedule-menu li.active a:focus {
+	background-color: #64b3f4;
+}
+
+.nkm-social-media a:hover,
+.nkm-social-media a:focus {
+	border: 1px solid #64b3f4;
+	color: #64b3f4;
+}
+
+.nkm-contact-form .form-control:focus,
+.nkm-schedule-menu li a {
+	border: 1px solid #64b3f4;    
+} 
+
+.nkm-send-msg-btn,
+.nkm-register-btn:hover,
+.nkm-register-btn:focus,
+.nkm-popular-price .nkm-register-btn {
+	border: 1px solid #64b3f4;
+	background-color: #64b3f4;
+}
+
+.nkm-faq-content .panel-default > .panel-heading + .panel-collapse > .panel-body {
+	border-top-color: #64b3f4;
+
+}
+
+.nkm-reg-submit-btn:hover,
+.nkm-reg-submit-btn:focus {
+	background-color: #64b3f4;
+	border: 2px solid #64b3f4;
+}
+
+
+
+
+
