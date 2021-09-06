@@ -37,7 +37,7 @@
  padding-right: 20px;
 }
 .nkm-hero-featured-content .right-logo{
-    width:180px;
+    width:190px;
     padding-left: 20px;
    }
 
@@ -50,6 +50,23 @@
     padding-bottom: 20px;
 }
 
+
+.download-brochure-desktop{
+  position:absolute;
+  top:90vh;
+  left:30px;
+  padding:5px 10px;
+  background-color: #fff;
+}
+
+.download-brochure-mobile{
+  margin-top: 30px;
+  padding:2px 5px;
+  background-color: #fff;
+  font-size:12px;
+  display: none;
+}
+
 /* scroll down animated icon */
 
   
@@ -58,9 +75,9 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 300px;
+  
     top:86vh;
-    right: -30px;
+    right: 30px;
   }
   
   .scroll {
@@ -137,21 +154,27 @@
 font-size: 15px;
 }
 
-#nkm-college,#nkm-department,#nkm-call-for-papers, #nkm-committee, #nkm-contact {
+#nkm-college,#nkm-department,#nkm-call-for-papers,#nkm-registration, #nkm-committee, #nkm-contact {
 	background-color: #fff;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
-.nkm-college-area, .nkm-department-area, .nkm-call-for-papers-area, .nkm-committee-area {
+.nkm-college-area, .nkm-department-area, .nkm-call-for-papers-area,  .nkm-committee-area {
 	display: inline;
 	float: left;
 	padding: 100px 0;
 	width: 100%;
 }
 
-#nkm-department, #nkm-committee{
+.nkm-registration-area{
+  display: inline;
+	float: left;
+	padding: 120px 0;
+}
+
+#nkm-department, #nkm-registration,#nkm-contact{
     background-color: #f8f8f8;
 }
 
@@ -194,17 +217,25 @@ padding-bottom: 10px;
     }
     
     .nkm-hero-featured-content .left-logo {
-        width: 80px;
+        width: 130px;
     }
     
     .nkm-hero-featured-content .right-logo {
-        width: 120px;
+        width: 150px;
     }
 
     .srs-text{
         font-size: 20px !important;
         padding-top:20px;
         padding-bottom: 10px;
+    }
+
+    .download-brochure-desktop{
+      display: none;
+    }
+
+    .download-brochure-mobile{
+      display: block;
     }
 
     .scroll-field{
