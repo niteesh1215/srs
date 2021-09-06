@@ -32,7 +32,9 @@
 	/* ----------------------------------------------------------- */
 	/*  2. EVENT TIME COUNTER
 	/* ----------------------------------------------------------- */
-	var nextYear = moment("2021-10-27 00:00").utcOffset(new Date().getTimezoneOffset())
+
+	//-330 is timezone offset for INDIA
+	var nextYear = moment("2021-10-27 00:00").utcOffset(-330)
 	$('#nkm-event-counter').countdown(nextYear.toDate(), function (event) {
 		var $this = $(this).html(event.strftime(''
 			+ '<span class="nkm-event-counter-block"><span>%D</span> Days</span> '
@@ -60,7 +62,6 @@
 			if (item.length) { return item; }
 		});
 
-	console.log(scrollItems);
 
 	// Bind click handler to menu items
 	// so we can get a fancy scroll animation
@@ -91,9 +92,7 @@
 
 		// Get id of current scroll item
 		var cur = scrollItems.map(function () {
-			console.log($(this).attr('id'));
-			console.log($(this).offset().top);
-			console.log(fromTop);
+			
 			if ($(this).offset().top < fromTop)
 				return this;
 		});
