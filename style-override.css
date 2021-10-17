@@ -33,11 +33,11 @@
 }
 
 .nkm-hero-featured-content .left-logo{
- width:180px;
+ width:190px;
  padding-right: 20px;
 }
 .nkm-hero-featured-content .right-logo{
-    width:190px;
+    width:180px;
     padding-left: 20px;
    }
 
@@ -53,7 +53,7 @@
 
 .download-brochure-desktop{
   position:absolute;
-  top:90vh;
+  top:635px;
   left:30px;
   padding:5px 10px;
   background-color: #fff;
@@ -75,8 +75,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-  
-    top:86vh;
+    top:615px;
     right: 30px;
   }
   
@@ -197,11 +196,47 @@ padding-bottom: 10px;
 }
 
 
+/*****************************************************************/
+/*notification*/
 
+.notification{
+  width: 280px;
+  background:rgba(255, 255, 255, 1);
+  position: fixed;
+  padding: 14px 20px 0px 14px;
+  
+  top: 150px;
+  right: 0px;
+  z-index: 100;
+}
+
+.notification h6{
+  color:orange;
+}
+
+.notification h6 i{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+  0% { padding-left: 0;}
+  50%{padding-left: 7px;}
+  0% { padding-left: 0;}
+}
+
+/*****************************************************************/
 
 
 
 @media (max-width: 998px) {
+
+  .notification{
+    position: relative;
+    top: 0;
+    width: 100%;
+    left:0;
+  }
 
     #nkm-hero .srs-navbar{
         padding-left: unset;
@@ -217,11 +252,11 @@ padding-bottom: 10px;
     }
     
     .nkm-hero-featured-content .left-logo {
-        width: 130px;
+        width: 150px;
     }
     
     .nkm-hero-featured-content .right-logo {
-        width: 150px;
+        width: 130px;
     }
 
     .srs-text{
